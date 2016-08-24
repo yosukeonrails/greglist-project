@@ -1,0 +1,192 @@
+
+body{margin:0;
+    padding:0;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+
+nav {
+
+	background-color:#e6e6e6;
+	height:20px;
+	border-bottom:1px solid #cccccc;
+	padding-left:20px; 
+	padding-top:10px;
+	padding-bottom: 20px;
+	position:fixed;
+	width: 100%;
+}
+
+
+
+
+h1 {
+display: inline-block;
+margin-bottom: 10px;
+position: relative;
+bottom:15px;
+}
+
+
+
+nav ul {
+font-size: 20px;
+list-style-type: none;
+display: inline;
+position: relative;
+float:right;
+right:40px;
+bottom:15px;
+
+}
+
+nav li { display: inline; }
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#0099ff;
+}
+
+.fixedwidth {
+
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+
+}
+
+.content {display: inline-block;}
+
+input {
+	width:800px;
+	height: 30px;
+	font-size: 25px;
+	border-radius: 4px;
+	border:1px solid #999999;
+	
+	}
+
+
+.fa.fa-search{
+    font-size: 20px;
+    padding: 5px 5px  5px  5px  ;
+    border: 1px solid #999999;
+    width: 20px;
+    border-radius: 4px;
+    height: 20px;
+
+   
+  }
+
+
+
+  .fixedwidth2{
+
+	width: 1200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+
+}
+
+
+
+   .previous {
+     border-width: 1px 1px 0px 0px;
+     display: inline-block;
+     width:85px;
+   }
+
+   .previous a {
+
+    padding-left: 20px;
+    padding-top: 100px;
+
+   }
+ 
+  .middle {
+  		border:1px solid #b3b3b3;
+  	border-width: 0px 1px 0px 1px;
+  	display: inline-block;
+  	width:320px;
+  	height: 50px;
+  }
+
+  .middle p {
+    padding-left: 110px;
+  }
+  
+   .next {
+  	display: inline-block;
+  	height:50px;
+  	 width:85px;
+
+   }
+
+   .next a {
+
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+   }
+
+
+
+.navbutton {
+
+border:1px solid  #b3b3b3;
+width:500px;
+height:50px;
+border-radius:4px;
+display:inline-block;
+
+}
+
+.navbutton a{
+  text-decoration: none;
+}
+
+.navbutton a:hover {
+  color:#0099ff;
+}
+
+.fa.fa-star {
+  font-size: 25px;
+  color:#b3b3b3;
+  padding-right: 10px;
+}
+
+.fa.fa-star:hover {
+  font-size: 25px;
+  color:#ffcc66;
+  padding-right: 10px;
+}
+
+ 
+
+.found li {
+  list-style-type: none;
+  color:#a6a6a6;
+  padding-bottom: 20px;
+
+}
+
+.found a {
+  color:blue;
+  padding-left: 10px;
+  padding-right:10px;
+  text-decoration: none;
+}
+
+.found a:hover {
+  color:#0099ff;
+}
+
+
